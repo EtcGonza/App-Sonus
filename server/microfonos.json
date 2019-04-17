@@ -1,0 +1,42 @@
+[{
+        "modelo": "Bajo",
+        "nombre": "Jazz Bass Classic - Neck",
+        "tipo": "Simple Bobina",
+        "colores": [
+            "Negro"
+        ],
+        "posiciones": [
+            "Mid",
+            "Bridge",
+            "Neck"
+        ],
+        "urlSonidos": [
+            "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck",
+            "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck-mid"
+        ],
+        "urlImagenes": [
+            "http://www.sonusfx.com.ar/productos/obtenerimagen/?id=681&useDensity=true&width=657&height=369.5625&tipoEscala=contain"
+        ]
+    },
+    {
+        "modelo": "Guitarra",
+        "nombre": "SUPER BRIDGE Set x3",
+        "tipo": "Simple Bobina",
+        "colores": [
+            "Negro",
+            "Blanco"
+        ],
+        "posiciones": [
+            "Mid",
+            "Bridge",
+            "Neck"
+        ],
+        "urlSonidos": [
+            "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck",
+            "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck-mid"
+        ],
+        "urlImagenes": [
+            "http://www.sonusfx.com.ar/productos/obtenerimagen/?id=681&useDensity=true&width=657&height=369.5625&tipoEscala=contain"
+        ]
+    }
+]
