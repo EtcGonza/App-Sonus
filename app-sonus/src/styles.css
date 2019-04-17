@@ -1,0 +1,105 @@
+/* You can add global styles to this file, and also import other style files */
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /** Reset para REMS - 62.5% = 10px de 16px **/
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+    /* background-color: #AA1111; */
+    /* Seleccion 1 */
+    /* background-color: #EBEBEB; */
+    /* Seleccion 1 */
+    /* Seleccion 2 */
+    /* background-color: #FFF5C3; */
+    /* Seleccion 2 */
+    /* Seleccion 3 */
+    /* background-color: #FFF5C3; */
+    /* Seleccion 3 */
+    /* Seleccion 4 */
+    /* background-color: #F5F5F5; */
+    /* Seleccion 4 */
+    background-color: #00444C;
+    /* background-image: url("../src/assets/img/fondo.png"); */
+    /* Para agregar fondo de guitarras descomentar linea de arriba */
+}
+
+
+/** Globales **/
+
+img {
+    max-width: 100%;
+}
+
+.contenedor {
+    width: 95%;
+    max-width: 120rem;
+    margin: 0rem auto;
+}
+
+.secciones {
+    margin: 10rem auto;
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 3.4rem;
+    margin-bottom: 2.5rem;
+    /* Para dejar un espacio entre seccion y seccion. */
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 2.6rem;
+}
+
+
+/** Utilidades **/
+
+button {
+    font-size: 1.5rem !important;
+    max-width: 100%;
+    width: 8rem;
+    height: 3rem;
+}
+
+.seccion {
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.centrar-texto {
+    text-align: center;
+}
+
+.padding-texto {
+    padding: 2rem;
+}
+
+.contenido-centrado {
+    max-width: 800px;
+}

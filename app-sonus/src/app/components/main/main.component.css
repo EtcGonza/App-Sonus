@@ -1,0 +1,199 @@
+.separacion {
+    /* margin-top: 5rem; */
+    margin-bottom: 6rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.titulo {
+    /* Seleccion 1 */
+    /* color: black; */
+    /* Seleccion 1 */
+    /* Seleccion 2 */
+    /* color: #505050; */
+    /* Seleccion 2 */
+    /* Seleccion 3 */
+    /* color: #CD5C5C; */
+    /* Seleccion 3 */
+    /* Seleccion 4 */
+    /* color: #CD5C5C; */
+    /* Seleccion 4 */
+    color: #FED7AD;
+    padding: 8rem;
+}
+
+.texto {
+    padding: 1rem;
+    /* Seleccion 1 */
+    /* color: black; */
+    /* Seleccion 1 */
+    /* Seleccion 2 */
+    /* color: #FFF5C3; */
+    /* Seleccion 2 */
+    /* Seleccion 3 */
+    /* color: #FFF5C3; */
+    /* Seleccion 3 */
+    /* Seleccion 4 */
+    /* color: #F5F5F5; */
+    /* Seleccion 4 */
+    color: #B67B0D;
+}
+
+.item {
+    min-width: 216px;
+    /* background-color: #3D72A4; */
+    /* Seleccion 1 */
+    /* background-color: #EBEBEB; */
+    /* Seleccion 1 */
+    /* Seleccion 2 */
+    /* background-color: #129793; */
+    /* Seleccion 2 */
+    /* Seleccion 3 */
+    /* background-color: #CD5C5C; */
+    /* Seleccion 3 */
+    /* Seleccion 4 */
+    /* background-color: #CD5C5C; */
+    /* Seleccion 4 */
+    /* background-color: #b80a37; */
+    background-color: #7E001D;
+    border-radius: 2rem;
+    padding: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+.centrar-bajo {
+    margin-left: 1.5rem;
+}
+
+.item img {
+    width: auto;
+    height: 350px;
+}
+
+
+/* EFECTO 3 */
+
+.item {
+    position: relative;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.item:before,
+.item:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    top: 10px;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    -moz-border-radius: 100px / 10px;
+    border-radius: 100px / 10px;
+}
+
+.item:after {
+    right: 10px;
+    left: auto;
+    -webkit-transform: skew(8deg) rotate(3deg);
+    -moz-transform: skew(8deg) rotate(3deg);
+    -ms-transform: skew(8deg) rotate(3deg);
+    -o-transform: skew(8deg) rotate(3deg);
+    transform: skew(8deg) rotate(3deg);
+}
+
+
+/* FIN EFECTO 3 */
+
+.item {
+    box-shadow: 0 20px 50px black;
+}
+
+
+/* EFECTO 1 */
+
+
+/* .item {
+
+    position: relative;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.item:before,
+.item:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    top: 0;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+    -moz-border-radius: 100px / 10px;
+    border-radius: 100px / 10px;
+}
+
+.item:after {
+    right: 10px;
+    left: auto;
+    -webkit-transform: skew(8deg) rotate(3deg);
+    -moz-transform: skew(8deg) rotate(3deg);
+    -ms-transform: skew(8deg) rotate(3deg);
+    -o-transform: skew(8deg) rotate(3deg);
+    transform: skew(8deg) rotate(3deg);
+} */
+
+
+/* FIN EFECTO 1 */
+
+
+/* EFFECTO 2 */
+
+
+/* .item {
+    position: relative;
+}
+
+.item:before,
+.item:after {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 25px;
+    left: 10px;
+    width: 50%;
+    top: 80%;
+    max-width: 300px;
+    background: #777;
+    -webkit-box-shadow: 0 35px 20px #777;
+    -moz-box-shadow: 0 35px 20px #777;
+    box-shadow: 0 35px 20px #777;
+    -webkit-transform: rotate(-8deg);
+    -moz-transform: rotate(-8deg);
+    -o-transform: rotate(-8deg);
+    -ms-transform: rotate(-8deg);
+    transform: rotate(-8deg);
+}
+
+.item:after {
+    -webkit-transform: rotate(8deg);
+    -moz-transform: rotate(8deg);
+    -o-transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    transform: rotate(8deg);
+    right: 10px;
+    left: auto;
+} */
+
+
+/* FIN EFECTO 2 */

@@ -1,0 +1,36 @@
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    max-width: 50%;
+    max-height: auto;
+    padding: 2rem;
+    /* margin: 15rem 0 0 0; */
+}
+
+.texto {
+    color: white;
+    max-width: 35%;
+    margin-top: 9rem;
+}
+
+.site-header {
+    background-image: url(../../../assets/img/guitarrepairclinic-fret-resurface-01.jpg);
+    /* background-image: url(../../../assets/img/HML-21.jpg); */
+    background-position: center center;
+    background-size: cover;
+    /* height: 100vh; */
+    min-height: 80rem;
+}
+
+.contenido-header {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+}
