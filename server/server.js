@@ -61,7 +61,7 @@ function getMicrofono(request, response) {
         microfono = buscarMic(data.modelo, data.clasificacion, data.nombre);
 
         if (microfono != null) {
-            resolve("Encontramos el Microfono!!");
+            resolve("Se hizo la solicitud.");
         } else {
             reject("Pibe... ponete a debuggear.");
         }
@@ -71,7 +71,6 @@ function getMicrofono(request, response) {
         console.log("Este codigo es una maravilla!!");
         response.send(microfono);
     }, function() {
-        response.send(microfono);
         console.log("Algo salio muy mal... Hay que debuggear.");
     });
 }
@@ -102,6 +101,7 @@ function buscarMic(modelo, clasificacion, nombre) {
             }
         }
     }
+
     console.log("No se encontro nada...");
-    return null;
+    return "No se encontro nada...";
 }
