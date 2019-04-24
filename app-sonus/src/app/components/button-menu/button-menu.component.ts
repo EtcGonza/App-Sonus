@@ -10,6 +10,7 @@ export class ButtonMenuComponent implements OnInit {
 
   @Input()Microfono:any;
   @Input()NombreClasificacion:any;
+  @Input()Tipo:any;
 
   constructor(private router:Router) {}
 

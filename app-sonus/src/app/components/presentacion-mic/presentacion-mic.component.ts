@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { ActivatedRoute, Params} from '@angular/router';
+import { ActivatedRoute} from '@angular/router';
+import { ApiService } from '../../services/api.service';
 
 @Component({
   selector: 'app-presentacion-mic',
@@ -9,14 +10,29 @@ import { ActivatedRoute, Params} from '@angular/router';
 
 export class PresentacionMicComponent implements OnInit {
 
-  hola:any;
+  modelo:string;
+  clasificacion:string;
+  nombre:string;
+  micSolicitado:any;
 
-  constructor(private rutaActiva: ActivatedRoute){
+  constructor(private rutaActiva: ActivatedRoute, private API:ApiService){
     this.rutaActiva.params.subscribe( params => {
-      this.hola = params['modelo']
-    })
+      this.modelo = params['modelo'];
+      this.clasificacion = params['clasificacion'];
+      this.nombre = params['nombre'];
+    });
   }
 
-  ngOnInit() {}
+  solicitarMic(){
+    this.API.solicitarMic(this.modelo,this.clasificacion,this.nombre)
+        .subscribe((data:any) => {
+          this.micSolicitado = data;
+          console.log(this.micSolicitado);
+        });
+  }
+
+  ngOnInit() {
+    this.solicitarMic();
+  }
 
 }

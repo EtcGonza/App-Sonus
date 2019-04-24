@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MenuGuitarraComponent } from './menu-guitarra.component';
+import { MenuMicrofonosComponent } from './menu-microfonos.component';
 
-describe('MenuGuitarraComponent', () => {
-  let component: MenuGuitarraComponent;
-  let fixture: ComponentFixture<MenuGuitarraComponent>;
+describe('MenuMicrofonosComponent', () => {
+  let component: MenuMicrofonosComponent;
+  let fixture: ComponentFixture<MenuMicrofonosComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MenuGuitarraComponent ]
+      declarations: [ MenuMicrofonosComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(MenuGuitarraComponent);
+    fixture = TestBed.createComponent(MenuMicrofonosComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

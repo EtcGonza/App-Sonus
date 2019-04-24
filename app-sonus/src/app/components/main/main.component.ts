@@ -10,6 +10,9 @@ export class MainComponent implements OnInit {
 
   constructor(private API:ApiService) { }
 
+  tipoBajo = 'Bajos';
+  tipoGuitarra = 'Guitarras';
+
   ngOnInit() {}
 
 }

@@ -12,6 +12,7 @@ export class ApiService {
   // QUERY API PROPIA
   getQueryApi(query: string) {
     const url = `http://localhost:3000/${query}`;
+    console.log(`http://localhost:3000/${query}`);
     return this.http.get(url);
   }
 
@@ -21,5 +22,14 @@ export class ApiService {
   }
   getMicsGuitarras() {
     return this.getQueryApi(`getGuitarras`);
+  }
+
+  getMicsList(tipo:string) {
+    return this.getQueryApi(`get${tipo}`);
+  }
+
+  solicitarMic (modelo, clasificacion, nombre) {
+    console.log("Enviando "+modelo,clasificacion,nombre);
+    return this.getQueryApi(`getMicrofono/${modelo}/${clasificacion}/${nombre}`);
   }
 }

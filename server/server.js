@@ -80,7 +80,7 @@ function buscarMic(modelo, clasificacion, nombre) {
 
     console.log("Buscando => " + modelo + "|" + clasificacion + "|" + nombre);
 
-    if (modelo == 'Bajo') {
+    if (modelo == 'Bajos') {
         console.log("Busco un Bajo.");
         for (let count = 0; count < micsBajos.length; count++) {
             for (let count2 = 0; count2 < micsBajos[count].microfonos.length; count2++) {
@@ -91,7 +91,7 @@ function buscarMic(modelo, clasificacion, nombre) {
             }
         }
     }
-    if (modelo == 'Guitarra') {
+    if (modelo == 'Guitarras') {
         console.log("Busco una guitarra.");
         for (let count = 0; count < micsGuitarras.length; count++) {
             for (let count2 = 0; count2 < micsGuitarras[count].microfonos.length; count2++) {

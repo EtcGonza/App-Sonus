@@ -4,7 +4,7 @@
 
         <div class="container">
             <div class="row justify-content-md-center">
-                <a routerLink="/guitarra">
+                <a [routerLink]="['/menuMicrofonos',tipoGuitarra]">
                     <div class="item col-md-auto beige">
                         <div>
                             <h2 class="texto text-center texto-negro">Guitarra</h2>
@@ -14,7 +14,7 @@
                 </a>
 
                 <div class="separacion col-2"></div>
-                <a routerLink="/bajo">
+                <a [routerLink]="['/menuMicrofonos',tipoBajo]">
                     <div class="item col-md-auto beige">
                         <h2 class="texto text-center texto-negro">Bajo</h2>
                         <img class="imagen centrar-bajo" src="\assets\img\bajo.png" alt="">
