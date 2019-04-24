@@ -1,11 +1,42 @@
-[{
+[
+    [{
         "modelo": "Bajo",
-        "clasificacion": "Bass Humbucker",
-        "nombre": "Humbucker Bass Set",
+        "nombreClasificacion": "Bass Humbucker",
+        "microfonos": [{
+            "nombre": "Humbucker Bass Set",
+            "posiciones": ["Bridge",
+                "Mid",
+                "Neck"
+            ]
+        }],
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac tempus ex, non ultricies dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque a nulla consectetur, pulvinar nisl id, volutpat diam. Etiam non tortor tortor. Etiam lacinia condimentum ipsum, nec tristique lectus fringilla eu. Suspendisse potenti. Nulla facilisi. Vivamus volutpat, ex ut mollis viverra, ante odio sagittis justo, vitae egestas neque nibh eget metus. Ut nisl nisi, molestie eget arcu a, dapibus vulputate erat. Suspendisse eget elit at enim efficitur efficitur. Nulla vel dolor augue. Proin lacinia nisl odio, at pretium ex pharetra vel. Praesent egestas eros nisi, sed gravida odio posuere vel. Pellentesque vehicula interdum nisl volutpat ultrices. Fusce finibus ultrices arcu, at malesuada libero semper a. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+        "urlSonidos": [
+            "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck",
+            "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck-mid"
+        ],
+        "urlImagenes": [
+            "asdasdasd"
+        ]
+    }],
+    [{
+        "modelo": "Bajo",
+        "nombreClasificacion": "Jazz Bass",
+        "microfonos": [{
+                "nombre": "Jazz Bass Classic - Neck",
+                "posiciones": ["Bridge",
+                    "Mid",
+                    "Neck"
+                ]
+            },
+            {
+                "nombre": "Jazz Bass Plus - Bridge",
+                "posiciones": ["Mid",
+                    "Neck"
+                ]
+            }
+        ],
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac tempus ex, non ultricies dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque a nulla consectetur, pulvinar nisl id, volutpat diam. Etiam non tortor tortor. Etiam lacinia condimentum ipsum, nec tristique lectus fringilla eu. Suspendisse potenti. Nulla facilisi. Vivamus volutpat, ex ut mollis viverra, ante odio sagittis justo, vitae egestas neque nibh eget metus. Ut nisl nisi, molestie eget arcu a, dapibus vulputate erat. Suspendisse eget elit at enim efficitur efficitur. Nulla vel dolor augue. Proin lacinia nisl odio, at pretium ex pharetra vel. Praesent egestas eros nisi, sed gravida odio posuere vel. Pellentesque vehicula interdum nisl volutpat ultrices. Fusce finibus ultrices arcu, at malesuada libero semper a. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
         "posiciones": [
-            "Mid",
-            "Bridge",
             "Neck"
         ],
         "urlSonidos": [
@@ -15,15 +46,25 @@
         "urlImagenes": [
             "asdasdasd"
         ]
-    },
-    {
+    }],
+    [{
         "modelo": "Bajo",
-        "clasificacion": "Jazz Bass",
-        "nombre": "Jazz Bass Classic - Neck",
-        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac tempus ex, non ultricies dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque a nulla consectetur, pulvinar nisl id, volutpat diam. Etiam non tortor tortor. Etiam lacinia condimentum ipsum, nec tristique lectus fringilla eu. Suspendisse potenti. Nulla facilisi. Vivamus volutpat, ex ut mollis viverra, ante odio sagittis justo, vitae egestas neque nibh eget metus. Ut nisl nisi, molestie eget arcu a, dapibus vulputate erat. Suspendisse eget elit at enim efficitur efficitur. Nulla vel dolor augue. Proin lacinia nisl odio, at pretium ex pharetra vel. Praesent egestas eros nisi, sed gravida odio posuere vel. Pellentesque vehicula interdum nisl volutpat ultrices. Fusce finibus ultrices arcu, at malesuada libero semper a. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
-        "posiciones": [
-            "Neck"
+        "nombreClasificacion": "Presicion Bass",
+        "microfonos": [{
+                "nombre": "Precision Bass Alnico",
+                "posiciones": ["Bridge",
+                    "Mid",
+                    "Neck"
+                ]
+            },
+            {
+                "nombre": "Precision Bass Ceramic",
+                "posiciones": ["Mid",
+                    "Neck"
+                ]
+            }
         ],
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac tempus ex, non ultricies dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque a nulla consectetur, pulvinar nisl id, volutpat diam. Etiam non tortor tortor. Etiam lacinia condimentum ipsum, nec tristique lectus fringilla eu. Suspendisse potenti. Nulla facilisi. Vivamus volutpat, ex ut mollis viverra, ante odio sagittis justo, vitae egestas neque nibh eget metus. Ut nisl nisi, molestie eget arcu a, dapibus vulputate erat. Suspendisse eget elit at enim efficitur efficitur. Nulla vel dolor augue. Proin lacinia nisl odio, at pretium ex pharetra vel. Praesent egestas eros nisi, sed gravida odio posuere vel. Pellentesque vehicula interdum nisl volutpat ultrices. Fusce finibus ultrices arcu, at malesuada libero semper a. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
         "urlSonidos": [
             "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck",
             "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck-mid"
@@ -31,247 +72,5 @@
         "urlImagenes": [
             "asdasdasd"
         ]
-    },
-    {
-        "modelo": "Bajo",
-        "clasificacion": "Jazz Bass",
-        "nombre": "Jazz Bass Plus - Bridge",
-        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac tempus ex, non ultricies dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque a nulla consectetur, pulvinar nisl id, volutpat diam. Etiam non tortor tortor. Etiam lacinia condimentum ipsum, nec tristique lectus fringilla eu. Suspendisse potenti. Nulla facilisi. Vivamus volutpat, ex ut mollis viverra, ante odio sagittis justo, vitae egestas neque nibh eget metus. Ut nisl nisi, molestie eget arcu a, dapibus vulputate erat. Suspendisse eget elit at enim efficitur efficitur. Nulla vel dolor augue. Proin lacinia nisl odio, at pretium ex pharetra vel. Praesent egestas eros nisi, sed gravida odio posuere vel. Pellentesque vehicula interdum nisl volutpat ultrices. Fusce finibus ultrices arcu, at malesuada libero semper a. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
-        "posiciones": [
-            "Bridge"
-        ],
-        "urlSonidos": [
-            "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck",
-            "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck-mid"
-        ],
-        "urlImagenes": [
-            "asdasdasd"
-        ]
-    },
-    {
-        "modelo": "Bajo",
-        "clasificacion": "Presicion Bass",
-        "nombre": "Precision Bass Alnico",
-        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac tempus ex, non ultricies dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque a nulla consectetur, pulvinar nisl id, volutpat diam. Etiam non tortor tortor. Etiam lacinia condimentum ipsum, nec tristique lectus fringilla eu. Suspendisse potenti. Nulla facilisi. Vivamus volutpat, ex ut mollis viverra, ante odio sagittis justo, vitae egestas neque nibh eget metus. Ut nisl nisi, molestie eget arcu a, dapibus vulputate erat. Suspendisse eget elit at enim efficitur efficitur. Nulla vel dolor augue. Proin lacinia nisl odio, at pretium ex pharetra vel. Praesent egestas eros nisi, sed gravida odio posuere vel. Pellentesque vehicula interdum nisl volutpat ultrices. Fusce finibus ultrices arcu, at malesuada libero semper a. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
-        "posiciones": [
-            "Bridge"
-        ],
-        "urlSonidos": [
-            "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck",
-            "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck-mid"
-        ],
-        "urlImagenes": [
-            "asdasdasd"
-        ]
-    },
-    {
-        "modelo": "Bajo",
-        "clasificacion": "Presicion Bass",
-        "nombre": "Precision Bass Ceramic",
-        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac tempus ex, non ultricies dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque a nulla consectetur, pulvinar nisl id, volutpat diam. Etiam non tortor tortor. Etiam lacinia condimentum ipsum, nec tristique lectus fringilla eu. Suspendisse potenti. Nulla facilisi. Vivamus volutpat, ex ut mollis viverra, ante odio sagittis justo, vitae egestas neque nibh eget metus. Ut nisl nisi, molestie eget arcu a, dapibus vulputate erat. Suspendisse eget elit at enim efficitur efficitur. Nulla vel dolor augue. Proin lacinia nisl odio, at pretium ex pharetra vel. Praesent egestas eros nisi, sed gravida odio posuere vel. Pellentesque vehicula interdum nisl volutpat ultrices. Fusce finibus ultrices arcu, at malesuada libero semper a. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
-        "posiciones": [
-            "Bridge"
-        ],
-        "urlSonidos": [
-            "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck",
-            "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck-mid"
-        ],
-        "urlImagenes": [
-            "http://www.sonusfx.com.ar/productos/obtenerimagen/?id=787&useDensity=true&width=837&height=470.8125&tipoEscala=contain",
-            "http://www.sonusfx.com.ar/productos/obtenerimagen/?id=586&useDensity=true&width=837&height=470.8125&tipoEscala=contain"
-        ]
-    },
-    {
-        "modelo": "Guitarra",
-        "clasificacion": "7 - 8 Cuerdas",
-        "nombre": "Humbucker 7 Blacked SET",
-        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac tempus ex, non ultricies dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque a nulla consectetur, pulvinar nisl id, volutpat diam. Etiam non tortor tortor. Etiam lacinia condimentum ipsum, nec tristique lectus fringilla eu. Suspendisse potenti. Nulla facilisi. Vivamus volutpat, ex ut mollis viverra, ante odio sagittis justo, vitae egestas neque nibh eget metus. Ut nisl nisi, molestie eget arcu a, dapibus vulputate erat. Suspendisse eget elit at enim efficitur efficitur. Nulla vel dolor augue. Proin lacinia nisl odio, at pretium ex pharetra vel. Praesent egestas eros nisi, sed gravida odio posuere vel. Pellentesque vehicula interdum nisl volutpat ultrices. Fusce finibus ultrices arcu, at malesuada libero semper a. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
-        "posiciones": [
-            "Bridge"
-        ],
-        "urlSonidos": [
-            "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck",
-            "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck-mid"
-        ],
-        "urlImagenes": [
-            "http://www.sonusfx.com.ar/productos/obtenerimagen/?id=787&useDensity=true&width=837&height=470.8125&tipoEscala=contain",
-            "http://www.sonusfx.com.ar/productos/obtenerimagen/?id=586&useDensity=true&width=837&height=470.8125&tipoEscala=contain"
-        ]
-    },
-    {
-        "modelo": "Guitarra",
-        "clasificacion": "7 - 8 Cuerdas",
-        "nombre": "Humbucker 8 Blacked - NECK",
-        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac tempus ex, non ultricies dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque a nulla consectetur, pulvinar nisl id, volutpat diam. Etiam non tortor tortor. Etiam lacinia condimentum ipsum, nec tristique lectus fringilla eu. Suspendisse potenti. Nulla facilisi. Vivamus volutpat, ex ut mollis viverra, ante odio sagittis justo, vitae egestas neque nibh eget metus. Ut nisl nisi, molestie eget arcu a, dapibus vulputate erat. Suspendisse eget elit at enim efficitur efficitur. Nulla vel dolor augue. Proin lacinia nisl odio, at pretium ex pharetra vel. Praesent egestas eros nisi, sed gravida odio posuere vel. Pellentesque vehicula interdum nisl volutpat ultrices. Fusce finibus ultrices arcu, at malesuada libero semper a. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
-        "posiciones": [
-            "Neck"
-        ],
-        "urlSonidos": [
-            "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck",
-            "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck-mid"
-        ],
-        "urlImagenes": [
-            "http://www.sonusfx.com.ar/productos/obtenerimagen/?id=787&useDensity=true&width=837&height=470.8125&tipoEscala=contain",
-            "http://www.sonusfx.com.ar/productos/obtenerimagen/?id=586&useDensity=true&width=837&height=470.8125&tipoEscala=contain"
-        ]
-    },
-    {
-        "modelo": "Guitarra",
-        "clasificacion": "Customizados",
-        "nombre": "Humbucker 6 Cuerdas SET - Multi",
-        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac tempus ex, non ultricies dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque a nulla consectetur, pulvinar nisl id, volutpat diam. Etiam non tortor tortor. Etiam lacinia condimentum ipsum, nec tristique lectus fringilla eu. Suspendisse potenti. Nulla facilisi. Vivamus volutpat, ex ut mollis viverra, ante odio sagittis justo, vitae egestas neque nibh eget metus. Ut nisl nisi, molestie eget arcu a, dapibus vulputate erat. Suspendisse eget elit at enim efficitur efficitur. Nulla vel dolor augue. Proin lacinia nisl odio, at pretium ex pharetra vel. Praesent egestas eros nisi, sed gravida odio posuere vel. Pellentesque vehicula interdum nisl volutpat ultrices. Fusce finibus ultrices arcu, at malesuada libero semper a. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
-        "posiciones": [
-            "Neck"
-        ],
-        "urlSonidos": [
-            "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck",
-            "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck-mid"
-        ],
-        "urlImagenes": [
-            "http://www.sonusfx.com.ar/productos/obtenerimagen/?id=787&useDensity=true&width=837&height=470.8125&tipoEscala=contain",
-            "http://www.sonusfx.com.ar/productos/obtenerimagen/?id=586&useDensity=true&width=837&height=470.8125&tipoEscala=contain"
-        ]
-    },
-    {
-        "modelo": "Guitarra",
-        "clasificacion": "Humbucker",
-        "nombre": "PAF Custom Set",
-        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac tempus ex, non ultricies dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque a nulla consectetur, pulvinar nisl id, volutpat diam. Etiam non tortor tortor. Etiam lacinia condimentum ipsum, nec tristique lectus fringilla eu. Suspendisse potenti. Nulla facilisi. Vivamus volutpat, ex ut mollis viverra, ante odio sagittis justo, vitae egestas neque nibh eget metus. Ut nisl nisi, molestie eget arcu a, dapibus vulputate erat. Suspendisse eget elit at enim efficitur efficitur. Nulla vel dolor augue. Proin lacinia nisl odio, at pretium ex pharetra vel. Praesent egestas eros nisi, sed gravida odio posuere vel. Pellentesque vehicula interdum nisl volutpat ultrices. Fusce finibus ultrices arcu, at malesuada libero semper a. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
-        "posiciones": [
-            "Neck"
-        ],
-        "urlSonidos": [
-            "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck",
-            "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck-mid"
-        ],
-        "urlImagenes": [
-            "http://www.sonusfx.com.ar/productos/obtenerimagen/?id=787&useDensity=true&width=837&height=470.8125&tipoEscala=contain",
-            "http://www.sonusfx.com.ar/productos/obtenerimagen/?id=586&useDensity=true&width=837&height=470.8125&tipoEscala=contain"
-        ]
-    },
-    {
-        "modelo": "Guitarra",
-        "clasificacion": "Humbucker",
-        "nombre": "PAF Custom - Bridge",
-        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac tempus ex, non ultricies dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque a nulla consectetur, pulvinar nisl id, volutpat diam. Etiam non tortor tortor. Etiam lacinia condimentum ipsum, nec tristique lectus fringilla eu. Suspendisse potenti. Nulla facilisi. Vivamus volutpat, ex ut mollis viverra, ante odio sagittis justo, vitae egestas neque nibh eget metus. Ut nisl nisi, molestie eget arcu a, dapibus vulputate erat. Suspendisse eget elit at enim efficitur efficitur. Nulla vel dolor augue. Proin lacinia nisl odio, at pretium ex pharetra vel. Praesent egestas eros nisi, sed gravida odio posuere vel. Pellentesque vehicula interdum nisl volutpat ultrices. Fusce finibus ultrices arcu, at malesuada libero semper a. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
-        "posiciones": [
-            "Neck"
-        ],
-        "urlSonidos": [
-            "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck",
-            "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck-mid"
-        ],
-        "urlImagenes": [
-            "http://www.sonusfx.com.ar/productos/obtenerimagen/?id=787&useDensity=true&width=837&height=470.8125&tipoEscala=contain",
-            "http://www.sonusfx.com.ar/productos/obtenerimagen/?id=586&useDensity=true&width=837&height=470.8125&tipoEscala=contain"
-        ]
-    },
-    {
-        "modelo": "Guitarra",
-        "clasificacion": "P90 / P94",
-        "nombre": "P90 Alnico",
-        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac tempus ex, non ultricies dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque a nulla consectetur, pulvinar nisl id, volutpat diam. Etiam non tortor tortor. Etiam lacinia condimentum ipsum, nec tristique lectus fringilla eu. Suspendisse potenti. Nulla facilisi. Vivamus volutpat, ex ut mollis viverra, ante odio sagittis justo, vitae egestas neque nibh eget metus. Ut nisl nisi, molestie eget arcu a, dapibus vulputate erat. Suspendisse eget elit at enim efficitur efficitur. Nulla vel dolor augue. Proin lacinia nisl odio, at pretium ex pharetra vel. Praesent egestas eros nisi, sed gravida odio posuere vel. Pellentesque vehicula interdum nisl volutpat ultrices. Fusce finibus ultrices arcu, at malesuada libero semper a. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
-        "posiciones": [
-            "Neck"
-        ],
-        "urlSonidos": [
-            "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck",
-            "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck-mid"
-        ],
-        "urlImagenes": [
-            "http://www.sonusfx.com.ar/productos/obtenerimagen/?id=787&useDensity=true&width=837&height=470.8125&tipoEscala=contain",
-            "http://www.sonusfx.com.ar/productos/obtenerimagen/?id=586&useDensity=true&width=837&height=470.8125&tipoEscala=contain"
-        ]
-    },
-    {
-        "modelo": "Guitarra",
-        "clasificacion": "P90 / P94",
-        "nombre": "P94 Alnico / Humbucker Size",
-        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac tempus ex, non ultricies dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque a nulla consectetur, pulvinar nisl id, volutpat diam. Etiam non tortor tortor. Etiam lacinia condimentum ipsum, nec tristique lectus fringilla eu. Suspendisse potenti. Nulla facilisi. Vivamus volutpat, ex ut mollis viverra, ante odio sagittis justo, vitae egestas neque nibh eget metus. Ut nisl nisi, molestie eget arcu a, dapibus vulputate erat. Suspendisse eget elit at enim efficitur efficitur. Nulla vel dolor augue. Proin lacinia nisl odio, at pretium ex pharetra vel. Praesent egestas eros nisi, sed gravida odio posuere vel. Pellentesque vehicula interdum nisl volutpat ultrices. Fusce finibus ultrices arcu, at malesuada libero semper a. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
-        "posiciones": [
-            "Neck"
-        ],
-        "urlSonidos": [
-            "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck",
-            "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck-mid"
-        ],
-        "urlImagenes": [
-            "http://www.sonusfx.com.ar/productos/obtenerimagen/?id=787&useDensity=true&width=837&height=470.8125&tipoEscala=contain",
-            "http://www.sonusfx.com.ar/productos/obtenerimagen/?id=586&useDensity=true&width=837&height=470.8125&tipoEscala=contain"
-        ]
-    },
-    {
-        "modelo": "Guitarra",
-        "clasificacion": "Stratocaster",
-        "nombre": "Strat Class - Set",
-        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac tempus ex, non ultricies dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque a nulla consectetur, pulvinar nisl id, volutpat diam. Etiam non tortor tortor. Etiam lacinia condimentum ipsum, nec tristique lectus fringilla eu. Suspendisse potenti. Nulla facilisi. Vivamus volutpat, ex ut mollis viverra, ante odio sagittis justo, vitae egestas neque nibh eget metus. Ut nisl nisi, molestie eget arcu a, dapibus vulputate erat. Suspendisse eget elit at enim efficitur efficitur. Nulla vel dolor augue. Proin lacinia nisl odio, at pretium ex pharetra vel. Praesent egestas eros nisi, sed gravida odio posuere vel. Pellentesque vehicula interdum nisl volutpat ultrices. Fusce finibus ultrices arcu, at malesuada libero semper a. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
-        "posiciones": [
-            "Neck"
-        ],
-        "urlSonidos": [
-            "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck",
-            "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck-mid"
-        ],
-        "urlImagenes": [
-            "http://www.sonusfx.com.ar/productos/obtenerimagen/?id=787&useDensity=true&width=837&height=470.8125&tipoEscala=contain",
-            "http://www.sonusfx.com.ar/productos/obtenerimagen/?id=586&useDensity=true&width=837&height=470.8125&tipoEscala=contain"
-        ]
-    },
-    {
-        "modelo": "Guitarra",
-        "clasificacion": "Stratocaster",
-        "nombre": "Strat Class - Bridge / Mid / Neck",
-        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac tempus ex, non ultricies dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque a nulla consectetur, pulvinar nisl id, volutpat diam. Etiam non tortor tortor. Etiam lacinia condimentum ipsum, nec tristique lectus fringilla eu. Suspendisse potenti. Nulla facilisi. Vivamus volutpat, ex ut mollis viverra, ante odio sagittis justo, vitae egestas neque nibh eget metus. Ut nisl nisi, molestie eget arcu a, dapibus vulputate erat. Suspendisse eget elit at enim efficitur efficitur. Nulla vel dolor augue. Proin lacinia nisl odio, at pretium ex pharetra vel. Praesent egestas eros nisi, sed gravida odio posuere vel. Pellentesque vehicula interdum nisl volutpat ultrices. Fusce finibus ultrices arcu, at malesuada libero semper a. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
-        "posiciones": [
-            "Neck",
-            "Bridge",
-            "Mid"
-        ],
-        "urlSonidos": [
-            "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck",
-            "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck-mid"
-        ],
-        "urlImagenes": [
-            "http://www.sonusfx.com.ar/productos/obtenerimagen/?id=787&useDensity=true&width=837&height=470.8125&tipoEscala=contain",
-            "http://www.sonusfx.com.ar/productos/obtenerimagen/?id=586&useDensity=true&width=837&height=470.8125&tipoEscala=contain"
-        ]
-    },
-    {
-        "modelo": "Guitarra",
-        "clasificacion": "Telecaster ",
-        "nombre": "Tele 'Raffo Signature' Set",
-        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac tempus ex, non ultricies dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque a nulla consectetur, pulvinar nisl id, volutpat diam. Etiam non tortor tortor. Etiam lacinia condimentum ipsum, nec tristique lectus fringilla eu. Suspendisse potenti. Nulla facilisi. Vivamus volutpat, ex ut mollis viverra, ante odio sagittis justo, vitae egestas neque nibh eget metus. Ut nisl nisi, molestie eget arcu a, dapibus vulputate erat. Suspendisse eget elit at enim efficitur efficitur. Nulla vel dolor augue. Proin lacinia nisl odio, at pretium ex pharetra vel. Praesent egestas eros nisi, sed gravida odio posuere vel. Pellentesque vehicula interdum nisl volutpat ultrices. Fusce finibus ultrices arcu, at malesuada libero semper a. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
-        "posiciones": [
-            "Neck",
-            "Bridge",
-            "Mid"
-        ],
-        "urlSonidos": [
-            "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck",
-            "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck-mid"
-        ],
-        "urlImagenes": [
-            "http://www.sonusfx.com.ar/productos/obtenerimagen/?id=787&useDensity=true&width=837&height=470.8125&tipoEscala=contain",
-            "http://www.sonusfx.com.ar/productos/obtenerimagen/?id=586&useDensity=true&width=837&height=470.8125&tipoEscala=contain"
-        ]
-    },
-    {
-        "modelo": "Guitarra",
-        "clasificacion": "Telecaster ",
-        "nombre": "Tele Hot - Set",
-        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac tempus ex, non ultricies dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque a nulla consectetur, pulvinar nisl id, volutpat diam. Etiam non tortor tortor. Etiam lacinia condimentum ipsum, nec tristique lectus fringilla eu. Suspendisse potenti. Nulla facilisi. Vivamus volutpat, ex ut mollis viverra, ante odio sagittis justo, vitae egestas neque nibh eget metus. Ut nisl nisi, molestie eget arcu a, dapibus vulputate erat. Suspendisse eget elit at enim efficitur efficitur. Nulla vel dolor augue. Proin lacinia nisl odio, at pretium ex pharetra vel. Praesent egestas eros nisi, sed gravida odio posuere vel. Pellentesque vehicula interdum nisl volutpat ultrices. Fusce finibus ultrices arcu, at malesuada libero semper a. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
-        "posiciones": [
-            "Neck",
-            "Bridge",
-            "Mid"
-        ],
-        "urlSonidos": [
-            "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck",
-            "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck-mid"
-        ],
-        "urlImagenes": [
-            "http://www.sonusfx.com.ar/productos/obtenerimagen/?id=787&useDensity=true&width=837&height=470.8125&tipoEscala=contain",
-            "http://www.sonusfx.com.ar/productos/obtenerimagen/?id=586&useDensity=true&width=837&height=470.8125&tipoEscala=contain"
-        ]
-    }
+    }]
 ]

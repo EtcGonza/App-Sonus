@@ -29,7 +29,7 @@ body {
     /* Seleccion 4 */
     /* background-color: #F5F5F5; */
     /* Seleccion 4 */
-    background-color: #7F001D;
+    /* background-color: #404040; */
     /* background-image: url("../src/assets/img/fondo.png"); */
     /* Para agregar fondo de guitarras descomentar linea de arriba */
 }
@@ -102,4 +102,20 @@ button {
 
 .contenido-centrado {
     max-width: 800px;
+}
+
+.beige {
+    background-color: #FED7AC;
+}
+
+.bordo {
+    background-color: #7F001D;
+}
+
+.texto-negro {
+    color: black;
+}
+
+.texto-blanco {
+    color: white;
 }

@@ -1,0 +1,89 @@
+[{
+        "modelo": "Bajo",
+        "nombreClasificacion": "Bass Humbucker",
+        "microfonos": [{
+            "nombre": "Humbucker Bass Set",
+            "posiciones": ["Bridge",
+                "Mid",
+                "Neck"
+            ],
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac tempus ex, non ultricies dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque a nulla consectetur, pulvinar nisl id, volutpat diam. Etiam non tortor tortor. Etiam lacinia condimentum ipsum, nec tristique lectus fringilla eu. Suspendisse potenti. Nulla facilisi. Vivamus volutpat, ex ut mollis viverra, ante odio sagittis justo, vitae egestas neque nibh eget metus. Ut nisl nisi, molestie eget arcu a, dapibus vulputate erat. Suspendisse eget elit at enim efficitur efficitur. Nulla vel dolor augue. Proin lacinia nisl odio, at pretium ex pharetra vel. Praesent egestas eros nisi, sed gravida odio posuere vel. Pellentesque vehicula interdum nisl volutpat ultrices. Fusce finibus ultrices arcu, at malesuada libero semper a. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+            "urlSonidos": [
+                "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck",
+                "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck-mid"
+            ],
+            "urlImagenes": [
+                "asdasdasd"
+            ]
+
+        }]
+    },
+    {
+        "modelo": "Bajo",
+        "nombreClasificacion": "Jazz Bass",
+        "microfonos": [{
+                "nombre": "Jazz Bass Classic - Neck",
+                "posiciones": ["Bridge",
+                    "Mid",
+                    "Neck"
+                ],
+                "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac tempus ex, non ultricies dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque a nulla consectetur, pulvinar nisl id, volutpat diam. Etiam non tortor tortor. Etiam lacinia condimentum ipsum, nec tristique lectus fringilla eu. Suspendisse potenti. Nulla facilisi. Vivamus volutpat, ex ut mollis viverra, ante odio sagittis justo, vitae egestas neque nibh eget metus. Ut nisl nisi, molestie eget arcu a, dapibus vulputate erat. Suspendisse eget elit at enim efficitur efficitur. Nulla vel dolor augue. Proin lacinia nisl odio, at pretium ex pharetra vel. Praesent egestas eros nisi, sed gravida odio posuere vel. Pellentesque vehicula interdum nisl volutpat ultrices. Fusce finibus ultrices arcu, at malesuada libero semper a. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+                "urlSonidos": [
+                    "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck",
+                    "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck-mid"
+                ],
+                "urlImagenes": [
+                    "asdasdasd"
+                ]
+            },
+            {
+                "nombre": "Jazz Bass Plus - Bridge",
+                "posiciones": ["Mid",
+                    "Neck"
+                ],
+                "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac tempus ex, non ultricies dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque a nulla consectetur, pulvinar nisl id, volutpat diam. Etiam non tortor tortor. Etiam lacinia condimentum ipsum, nec tristique lectus fringilla eu. Suspendisse potenti. Nulla facilisi. Vivamus volutpat, ex ut mollis viverra, ante odio sagittis justo, vitae egestas neque nibh eget metus. Ut nisl nisi, molestie eget arcu a, dapibus vulputate erat. Suspendisse eget elit at enim efficitur efficitur. Nulla vel dolor augue. Proin lacinia nisl odio, at pretium ex pharetra vel. Praesent egestas eros nisi, sed gravida odio posuere vel. Pellentesque vehicula interdum nisl volutpat ultrices. Fusce finibus ultrices arcu, at malesuada libero semper a. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+                "urlSonidos": [
+                    "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck",
+                    "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck-mid"
+                ],
+                "urlImagenes": [
+                    "asdasdasd"
+                ]
+            }
+        ]
+    },
+    {
+        "modelo": "Bajo",
+        "nombreClasificacion": "Presicion Bass",
+        "microfonos": [{
+                "nombre": "Precision Bass Alnico",
+                "posiciones": ["Bridge",
+                    "Mid",
+                    "Neck"
+                ],
+                "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac tempus ex, non ultricies dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque a nulla consectetur, pulvinar nisl id, volutpat diam. Etiam non tortor tortor. Etiam lacinia condimentum ipsum, nec tristique lectus fringilla eu. Suspendisse potenti. Nulla facilisi. Vivamus volutpat, ex ut mollis viverra, ante odio sagittis justo, vitae egestas neque nibh eget metus. Ut nisl nisi, molestie eget arcu a, dapibus vulputate erat. Suspendisse eget elit at enim efficitur efficitur. Nulla vel dolor augue. Proin lacinia nisl odio, at pretium ex pharetra vel. Praesent egestas eros nisi, sed gravida odio posuere vel. Pellentesque vehicula interdum nisl volutpat ultrices. Fusce finibus ultrices arcu, at malesuada libero semper a. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+                "urlSonidos": [
+                    "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck",
+                    "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck-mid"
+                ],
+                "urlImagenes": [
+                    "asdasdasd"
+                ]
+            },
+            {
+                "nombre": "Precision Bass Ceramic",
+                "posiciones": ["Mid",
+                    "Neck"
+                ],
+                "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac tempus ex, non ultricies dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque a nulla consectetur, pulvinar nisl id, volutpat diam. Etiam non tortor tortor. Etiam lacinia condimentum ipsum, nec tristique lectus fringilla eu. Suspendisse potenti. Nulla facilisi. Vivamus volutpat, ex ut mollis viverra, ante odio sagittis justo, vitae egestas neque nibh eget metus. Ut nisl nisi, molestie eget arcu a, dapibus vulputate erat. Suspendisse eget elit at enim efficitur efficitur. Nulla vel dolor augue. Proin lacinia nisl odio, at pretium ex pharetra vel. Praesent egestas eros nisi, sed gravida odio posuere vel. Pellentesque vehicula interdum nisl volutpat ultrices. Fusce finibus ultrices arcu, at malesuada libero semper a. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+                "urlSonidos": [
+                    "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck",
+                    "https://soundcloud.com/sonus-fx/super-bridge-2018-drive-neck-mid"
+                ],
+                "urlImagenes": [
+                    "asdasdasd"
+                ]
+            }
+        ]
+    }
+]

@@ -1,38 +1,42 @@
-a {
-    text-decoration: none;
+button {
+    font-size: 25px !important;
+    height: 6rem;
+    width: 28rem;
 }
 
-.titulo {
-    padding: 6rem;
+.btn-group {
+    margin-bottom: 3.5rem;
 }
 
-.texto {
-    padding: 1rem;
+.dropdown-item:first-of-type {
+    margin-top: 0rem;
 }
 
-.centrar-bajo {
-    margin-left: 1.5rem;
+.dropdown-item {
+    margin-top: 1.5rem;
+    width: 39rem;
+    border-radius: 1rem 2.5rem;
 }
 
-.item img {
-    width: auto;
-    height: 350px;
+.dropdown-menu {
+    margin-left: 2rem;
+    background-color: transparent;
 }
 
-.item {
-    min-width: 216px;
-    border-radius: 2rem;
-    padding: 3.5rem;
-    margin-bottom: 2rem;
+
+/* EFECTO 3 */
+
+
+/* button {
     position: relative;
     -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
     -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-    box-shadow: 0 20px 50px black;
-}
+} */
 
-.item:before,
-.item:after {
+
+/* button:before,
+button:after {
     content: "";
     position: absolute;
     z-index: -1;
@@ -45,9 +49,10 @@ a {
     right: 0;
     -moz-border-radius: 100px / 10px;
     border-radius: 100px / 10px;
-}
+} */
 
-.item:after {
+.btn-group:after,
+.dropdown-menu:after {
     right: 10px;
     left: auto;
     -webkit-transform: skew(8deg) rotate(3deg);
@@ -55,4 +60,12 @@ a {
     -ms-transform: skew(8deg) rotate(3deg);
     -o-transform: skew(8deg) rotate(3deg);
     transform: skew(8deg) rotate(3deg);
+}
+
+
+/* FIN EFECTO 3 */
+
+.btn-group,
+.dropdown-item {
+    box-shadow: 0 20px 40px black;
 }

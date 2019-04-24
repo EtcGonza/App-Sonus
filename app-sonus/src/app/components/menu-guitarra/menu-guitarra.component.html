@@ -1,0 +1,9 @@
+<section>
+    <div class="separacion container">
+        <div *ngFor="let mics of dataMics" class="row justify-content-md-left">
+            <div class="item col-md-auto">
+                <app-button-menu [Microfono]="mics.microfonos" [NombreClasificacion]="mics.nombreClasificacion"></app-button-menu>
+            </div>
+        </div>
+    </div>
+</section>
