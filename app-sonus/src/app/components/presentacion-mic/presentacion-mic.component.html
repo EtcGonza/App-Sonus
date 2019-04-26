@@ -1,1 +1,45 @@
-<p>{{hola}}</p>
+<section>
+    <div class="container">
+        <h2 class="centrar-texto padding-texto fw-700 texto-blanco titulo-microfono">{{micSolicitado.nombre}}</h2>
+        <div class="row">
+            <div class="col">
+                <img src="http://www.sonusfx.com.ar/productos/obtenerimagen/?id=499&useDensity=true&width=657&height=369.5625&tipoEscala=contain" alt="img_mic">
+            </div>
+            <div class="col texto-blanco">
+                <p class="fw-700">{{micSolicitado.descripcion}}</p>
+            </div>
+        </div>
+
+        <div class="titulo-posiciones">
+            <h3 class="centrar-texto padding-texto titulo fw-700 texto-blanco">Posiciones y Audios</h3>
+        </div>
+
+        <div class="contenido-posiciones">
+            <div class="row justify-content-center">
+                <p class="texto-posicion texto-blanco">{{micSolicitado.posiciones[0]}}</p>
+            </div>
+
+            <div class="row justify-content-center">
+                <img (click)="playMusic('myAudio1')" src="/assets/img/micGrafica1.png" alt="imagen_posicion">
+                <audio id="myAudio1">
+                    <source src="\assets\sound\pruebaSonido.mp3.mp3" >
+                </audio>
+            </div>
+
+        </div>
+
+        <div class="contenido-posiciones">
+            <div class="row justify-content-center">
+                <p class="texto-posicion texto-blanco">{{micSolicitado.posiciones[1]}}</p>
+            </div>
+
+            <div class="row justify-content-center">
+                <img (click)="playMusic('myAudio2')" src="/assets/img/micGrafica2.png" alt="imagen_posicion">
+                <audio id="myAudio2">
+                    <source src="\assets\sound\pruebaSonido2.mp3" >
+                </audio>
+            </div>
+        </div>
+
+    </div>
+</section>

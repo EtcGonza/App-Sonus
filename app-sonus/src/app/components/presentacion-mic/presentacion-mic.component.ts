@@ -14,6 +14,8 @@ export class PresentacionMicComponent implements OnInit {
   clasificacion:string;
   nombre:string;
   micSolicitado:any;
+  micPosiciones:any;
+  playing:boolean = false
 
   constructor(private rutaActiva: ActivatedRoute, private API:ApiService){
     this.rutaActiva.params.subscribe( params => {
@@ -23,11 +25,24 @@ export class PresentacionMicComponent implements OnInit {
     });
   }
 
+  playMusic(idAudio:string){
+    let x = <HTMLAudioElement> document.getElementById(idAudio); 
+    if (this.playing == false) {
+      x.play();
+      this.playing = true;
+      console.log("Reproduciendo: " + idAudio);
+    } else {
+      x.pause();
+      this.playing = false;
+      console.log("Detengo: " + idAudio);
+    }
+  }
+
   solicitarMic(){
     this.API.solicitarMic(this.modelo,this.clasificacion,this.nombre)
         .subscribe((data:any) => {
           this.micSolicitado = data;
-          console.log(this.micSolicitado);
+          console.log(this.micSolicitado.posiciones);
         });
   }
 

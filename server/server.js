@@ -1,5 +1,6 @@
 const express = require('express');
 const fs = require('fs');
+const cors = require('cors');
 
 var micsBajos = fs.readFileSync('micsBajos.json');
 var micsGuitarras = fs.readFileSync('micsGuitarras.json');
@@ -9,11 +10,11 @@ let server = express();
 
 server.listen(3000, () => { console.log("Listen 3000!"); });
 
-server.get('/getBajos', getMicsBajos);
+server.get('/getBajos', cors(), getMicsBajos);
 
-server.get('/getGuitarras', getMicsGuitarras);
+server.get('/getGuitarras', cors(), getMicsGuitarras);
 
-server.get('/getMicrofono/:modelo/:clasificacion/:nombre', getMicrofono);
+server.get('/getMicrofono/:modelo/:clasificacion/:nombre', cors(), getMicrofono);
 
 //FUNCTIONS
 function getMicsGuitarras(request, response) {

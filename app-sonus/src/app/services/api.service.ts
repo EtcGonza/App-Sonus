@@ -12,6 +12,7 @@ export class ApiService {
   // QUERY API PROPIA
   getQueryApi(query: string) {
     const url = `http://localhost:3000/${query}`;
+    // const url = `/api/${query}`;
     console.log(`http://localhost:3000/${query}`);
     return this.http.get(url);
   }

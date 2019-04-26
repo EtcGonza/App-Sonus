@@ -13,6 +13,7 @@ html {
 }
 
 body {
+    /* background-image: url(); */
     font-family: 'Lato', sans-serif;
     font-size: 1.6rem;
     line-height: 2;
@@ -30,7 +31,11 @@ body {
     /* background-color: #F5F5F5; */
     /* Seleccion 4 */
     /* background-color: #404040; */
-    /* background-image: url("../src/assets/img/fondo.png"); */
+    background-image: url("../src/assets/img/fondo.png");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     /* Para agregar fondo de guitarras descomentar linea de arriba */
 }
 
@@ -105,17 +110,23 @@ button {
 }
 
 .beige {
-    background-color: #FED7AC;
+    /* background-color: #FED7AC; */
+    /* background-color: #E64A45; */
+    background-color: #3399CC;
 }
 
-.bordo {
+
+/* .bordo {
     background-color: #7F001D;
-}
+    background-color: #3D4C53;
+} */
 
 .texto-negro {
-    color: black;
+    /* color: black; */
+    color: white;
 }
 
 .texto-blanco {
-    color: white;
+    /* color: white; */
+    color: #3399CC;
 }
