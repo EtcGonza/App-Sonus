@@ -1,22 +1,4 @@
-img {
-    padding: 4rem;
-}
-
-.titulo-microfono {
-    margin-top: 3rem;
-    margin-bottom: 4rem;
-}
-
-.titulo-posiciones {
-    margin-top: 5rem;
-    padding: 2rem;
-}
-
-.texto-posicion {
-    font-size: 2.5rem;
-    /* padding: 1rem; */
-    margin-top: 5rem;
-    margin-bottom: 1rem;
-}
-
-.contenido-posiciones {}
+/* .descripcion {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #FFC65D;
+} */

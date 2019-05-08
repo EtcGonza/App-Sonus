@@ -1,6 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { ActivatedRoute} from '@angular/router';
 import { ApiService } from '../../services/api.service';
+import {WaveSurfer} from "wavesurfer.js";
 
 @Component({
   selector: 'app-presentacion-mic',
@@ -15,7 +16,7 @@ export class PresentacionMicComponent implements OnInit {
   nombre:string;
   micSolicitado:any;
   micPosiciones:any;
-  playing:boolean = false
+  playing:boolean = false;
 
   constructor(private rutaActiva: ActivatedRoute, private API:ApiService){
     this.rutaActiva.params.subscribe( params => {

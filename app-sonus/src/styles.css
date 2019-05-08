@@ -1,22 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
 
+
+/** Reset para REMS - 62.5% = 10px de 16px **/
+
 html {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     font-size: 62.5%;
     /** Reset para REMS - 62.5% = 10px de 16px **/
 }
 
-*,
+
+/* *,
 *:before,
 *:after {
     box-sizing: inherit;
-}
+} */
 
 body {
     /* background-image: url(); */
     font-family: 'Lato', sans-serif;
     font-size: 1.6rem;
     line-height: 2;
+    background-color: #404040;
     /* background-color: #AA1111; */
     /* Seleccion 1 */
     /* background-color: #EBEBEB; */
@@ -31,11 +36,12 @@ body {
     /* background-color: #F5F5F5; */
     /* Seleccion 4 */
     /* background-color: #404040; */
-    background-image: url("../src/assets/img/fondo.png");
+    /* Para imagen con fondo */
+    /* background-image: url("../src/assets/img/fondo.png");
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed; */
     /* Para agregar fondo de guitarras descomentar linea de arriba */
 }
 
@@ -77,11 +83,9 @@ h4 {
 
 /** Utilidades **/
 
-button {
-    font-size: 1.5rem !important;
-    max-width: 100%;
-    width: 8rem;
-    height: 3rem;
+.titulo {
+    font-size: 6rem;
+    margin-bottom: 0;
 }
 
 .seccion {
@@ -109,24 +113,21 @@ button {
     max-width: 800px;
 }
 
-.beige {
-    /* background-color: #FED7AC; */
-    /* background-color: #E64A45; */
-    background-color: #3399CC;
+.contenedor-titulo {
+    margin: 2rem;
 }
 
 
-/* .bordo {
-    background-color: #7F001D;
-    background-color: #3D4C53;
-} */
+/* Colores */
 
-.texto-negro {
-    /* color: black; */
-    color: white;
+.color1 {
+    background-color: #FFC65D;
 }
 
-.texto-blanco {
-    /* color: white; */
-    color: #3399CC;
+.color2 {
+    color: #404040;
+}
+
+.color3 {
+    color: #FFC65D;
 }

@@ -1,26 +1,27 @@
-<section>
-    <div class="separacion">
-        <h2 class="centrar-texto padding-texto titulo fw-700 texto-blanco">-Escucha Nuestros Sonidos-</h2>
+<div class="row contenedor-titulo justify-content-center color1">
+    <h2 class="text-center titulo fw-700 color2">-Escucha Nuestros Sonidos-</h2>
+</div>
 
-        <div class="container">
-            <div class="row justify-content-md-center">
-                <a [routerLink]="['/menuMicrofonos',tipoGuitarra]">
-                    <div class="item col-md-auto beige">
-                        <div>
-                            <h2 class="texto text-center texto-negro">Guitarra</h2>
-                            <img class="imagen" src="\assets\img\guitar.png" alt="">
-                        </div>
-                    </div>
-                </a>
+<div class="container">
 
-                <div class="separacion col-2"></div>
-                <a [routerLink]="['/menuMicrofonos',tipoBajo]">
-                    <div class="item col-md-auto beige">
-                        <h2 class="texto text-center texto-negro">Bajo</h2>
-                        <img class="imagen centrar-bajo" src="\assets\img\bajo.png" alt="">
-                    </div>
-                </a>
+    <div class="row justify-content-center">
+
+        <a [routerLink]="['/menuMicrofonos',tipoGuitarra]">
+            <div class="item col-sm color1">
+                <div>
+                    <h2 class="texto text-center color2 fw-700">Guitarra</h2>
+                    <img class="imagen" src="\assets\img\guitar.png" alt="">
+                </div>
             </div>
-        </div>
+        </a>
+
+        <a [routerLink]="['/menuMicrofonos',tipoBajo]">
+            <div class="item col-sm color1">
+                <h2 class="texto text-center color2 fw-700">Bajo</h2>
+                <img class="imagen centrar-bajo" src="\assets\img\bajo.png" alt="">
+            </div>
+        </a>
+
     </div>
-</section>
+
+</div>

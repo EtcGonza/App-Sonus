@@ -5,7 +5,6 @@ import { AppComponent } from './app.component';
 
 //Modulos
 import { HttpClientModule } from "@angular/common/http";
-
 // Componentes.
 import { HeaderComponent } from './components/header/header.component';
 import { MainComponent } from './components/main/main.component';
@@ -15,6 +14,8 @@ import { PresentacionMicComponent } from './components/presentacion-mic/presenta
 //Rutas
 import { RouterModule } from "@angular/router";
 import { MenuMicrofonosComponent } from './components/menu-microfonos/menu-microfonos.component';
+import { CuadroMicComponent } from './components/cuadro-mic/cuadro-mic.component';
+import { WaveAnimationComponent } from './components/wave-animation/wave-animation.component';
 
 
 @NgModule({
@@ -24,7 +25,9 @@ import { MenuMicrofonosComponent } from './components/menu-microfonos/menu-micro
     MainComponent,
     ButtonMenuComponent,
     PresentacionMicComponent,
-    MenuMicrofonosComponent
+    MenuMicrofonosComponent,
+    CuadroMicComponent,
+    WaveAnimationComponent
   ],
   imports: [
     BrowserModule,

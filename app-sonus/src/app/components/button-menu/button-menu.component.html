@@ -1,6 +1,6 @@
 <div class="btn-group dropright">
-    <button type="button" class="btn beige dropdown-toggle" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">{{NombreClasificacion}}</button>
+    <button type="button" class="btn color1 dropdown-toggle fw-700" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">{{NombreClasificacion}}</button>
     <div class="dropdown-menu dropdown-menu-lg-left">
-        <button *ngFor="let mics of Microfono" class="dropdown-item beige text-center" type="button" [routerLink]="['/presentacion',Tipo,NombreClasificacion,mics.nombre]">{{mics.nombre}}</button>
+        <button *ngFor="let mics of Microfono" class="dropdown-item color1 text-center fw-700" type="button" [routerLink]="['/presentacion',Tipo,NombreClasificacion,mics.nombre]">{{mics.nombre}}</button>
     </div>
 </div>
