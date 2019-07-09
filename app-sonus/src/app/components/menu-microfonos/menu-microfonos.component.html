@@ -1,9 +1,11 @@
-<section>
-    <div class="separacion container">
-        <div *ngFor="let mic of MicrofonosList" class="row justify-content-md-left">
-            <div class="item col-md-auto">
-                <app-button-menu [Tipo]="tipo" [Microfono]="mic.microfonos" [NombreClasificacion]="mic.nombreClasificacion"></app-button-menu>
-            </div>
+<div class="row justify-content-center color1">
+    <h2 class="text-center titulo fw-700 color2">Elegí un microfono</h2>
+</div>
+
+<div class="container secciones">
+    <div>
+        <div *ngFor="let mic of MicrofonosList">
+            <app-boton-desplegable [tipo]="tipo" [listaMicrofonos]="mic.microfonos" [nombreClasificacion]="mic.nombreClasificacion" [id]="mic.id"></app-boton-desplegable>
         </div>
     </div>
-</section>
+</div>

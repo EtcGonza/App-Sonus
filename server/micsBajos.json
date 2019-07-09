@@ -1,5 +1,6 @@
 [{
         "modelo": "Bajo",
+        "id": "1",
         "nombreClasificacion": "Bass Humbucker",
         "microfonos": [{
             "nombre": "Humbucker Bass Set",
@@ -20,6 +21,7 @@
     },
     {
         "modelo": "Bajo",
+        "id": "2",
         "nombreClasificacion": "Jazz Bass",
         "microfonos": [{
                 "nombre": "Jazz Bass Classic - Neck",
@@ -54,6 +56,7 @@
     },
     {
         "modelo": "Bajo",
+        "id": "3",
         "nombreClasificacion": "Presicion Bass",
         "microfonos": [{
                 "nombre": "Precision Bass Alnico",

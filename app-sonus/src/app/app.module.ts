@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 
 //Modulos
 import { HttpClientModule } from "@angular/common/http";
+import { NavbarModule, WavesModule } from 'angular-bootstrap-md'
 // Componentes.
 import { HeaderComponent } from './components/header/header.component';
 import { MainComponent } from './components/main/main.component';
@@ -16,6 +17,10 @@ import { RouterModule } from "@angular/router";
 import { MenuMicrofonosComponent } from './components/menu-microfonos/menu-microfonos.component';
 import { CuadroMicComponent } from './components/cuadro-mic/cuadro-mic.component';
 import { WaveAnimationComponent } from './components/wave-animation/wave-animation.component';
+import { BotonDesplegableComponent } from './components/boton-desplegable/boton-desplegable.component';
+import { BotonRedondoComponent } from './components/boton-redondo/boton-redondo.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { GaleriaComponent } from './components/galeria/galeria.component';
 
 
 @NgModule({
@@ -27,13 +32,19 @@ import { WaveAnimationComponent } from './components/wave-animation/wave-animati
     PresentacionMicComponent,
     MenuMicrofonosComponent,
     CuadroMicComponent,
-    WaveAnimationComponent
+    WaveAnimationComponent,
+    BotonDesplegableComponent,
+    BotonRedondoComponent,
+    FooterComponent,
+    GaleriaComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    RouterModule
+    RouterModule,
+    NavbarModule,
+    WavesModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -23,6 +23,7 @@ export class MenuMicrofonosComponent implements OnInit {
     this.API.getMicsList(this.tipo)
             .subscribe((data:any) => {
               this.MicrofonosList = data;
+              console.log(data);
             });
   }
 

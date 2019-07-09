@@ -1,35 +1,11 @@
-/* img {
-    margin-top: 2rem;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    max-width: 80%;
-    height: 80%;
-} */
-
-button {
-    font-size: 2.2rem;
-    font-weight: 700;
-    border-radius: 1.5rem;
-    color: #FFC65D;
-}
-
-.marginBottom {
-    margin-bottom: 3rem;
+h3 {
+    margin-bottom: 2rem;
 }
 
 .card {
-    margin-top: 5rem;
-    border-radius: 2rem;
+    margin-top: 7.5rem;
+    border-radius: 3rem;
     background-color: #FFC65D;
-}
-
-.row {
-    margin-top: 5rem;
-}
-
-.row:first-of-type {
-    margin-top: 0rem;
 }
 
 

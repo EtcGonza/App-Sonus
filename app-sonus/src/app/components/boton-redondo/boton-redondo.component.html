@@ -1,0 +1,14 @@
+<div class="row navbar">
+    <button class="navbar-toggler color1 btn btn-circle btn-xl" type="button" data-toggle="collapse" data-target="#navbar">
+          <i class="fas fa-bars"></i>
+        </button>
+</div>
+
+<div class="collapse" id="navbar">
+    <div class="row hijos">
+        <button type="button" class="item color1 btn btn-circle btn-xl" [routerLink]="['/menu']"><i class="fas fa-home"></i></button>
+    </div>
+    <div class="row hijos">
+        <button type="button" class="item color1 btn btn-circle btn-xl" [routerLink]="['/{link}']"><i class="fas fa-undo-alt"></i></button>
+    </div>
+</div>

@@ -1,32 +1,9 @@
-.contenedor-titulo {
-    margin-bottom: 12rem;
-}
-
-.titulo {
-    padding: 2rem;
-    font-size: 6rem;
-}
-
 a {
     text-decoration: none;
-    margin-right: 5rem;
-}
-
-a:last-of-type {
-    margin-right: 0rem;
-}
-
-@media (max-width: 432px) {
-    a {
-        margin-right: 0rem;
-    }
-    a:first-of-type {
-        margin-bottom: 4rem;
-    }
+    margin-right: 6rem;
 }
 
 .item img {
-    width: auto;
     height: 350px;
 }
 

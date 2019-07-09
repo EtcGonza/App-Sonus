@@ -1,36 +1,21 @@
-button {
+button.titulo {
     font-size: 25px;
     height: 6rem;
     width: 28rem;
+    margin: 2rem;
+    border-radius: 2rem;
 }
 
-.item {
-    margin: 2rem 0;
+button.item {
+    font-size: 20px;
+    height: 6.2rem;
+    width: 30rem;
+    margin: 2rem;
+    border-radius: 4rem 1rem 4rem 1rem;
 }
 
-@media (max-width: 768px) {
-    button {
-        font-size: 30px;
-    }
-}
-
-.btn-group {
-    margin-bottom: 2.7rem;
-}
-
-.dropdown-item {
-    margin-top: 1.5rem;
-    width: 40rem;
-    font-size: 25px;
-}
-
-.dropdown-item:first-of-type {
-    margin-top: 0rem;
-}
-
-.dropdown-menu {
-    margin-left: 2rem;
-    background-color: transparent;
+.contenido {
+    text-align: left;
 }
 
 
@@ -43,8 +28,8 @@ button {
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 
-.btn-group:after,
-.dropdown-menu:after {
+button:after,
+button:after {
     right: 10px;
     left: auto;
     -webkit-transform: skew(8deg) rotate(3deg);
@@ -54,10 +39,9 @@ button {
     transform: skew(8deg) rotate(3deg);
 }
 
-
-/* FIN EFECTO 3 */
-
-.btn-group,
-.dropdown-item {
+button {
     box-shadow: 0 20px 40px black;
 }
+
+
+/* FIN EFECTO 3 */

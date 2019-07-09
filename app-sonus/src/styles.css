@@ -1,6 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 
 
+/* Normalize */
+
+
+/* End Normalize */
+
+
 /** Reset para REMS - 62.5% = 10px de 16px **/
 
 html {
@@ -8,13 +14,6 @@ html {
     font-size: 62.5%;
     /** Reset para REMS - 62.5% = 10px de 16px **/
 }
-
-
-/* *,
-*:before,
-*:after {
-    box-sizing: inherit;
-} */
 
 body {
     /* background-image: url(); */
@@ -52,24 +51,12 @@ img {
     max-width: 100%;
 }
 
-.contenedor {
-    width: 95%;
-    max-width: 120rem;
-    margin: 0rem auto;
-}
-
-.secciones {
-    margin: 10rem auto;
-}
-
 h1 {
     font-size: 3.8rem;
 }
 
 h2 {
     font-size: 3.4rem;
-    margin-bottom: 2.5rem;
-    /* Para dejar un espacio entre seccion y seccion. */
 }
 
 h3 {
@@ -83,14 +70,13 @@ h4 {
 
 /** Utilidades **/
 
-.titulo {
-    font-size: 6rem;
-    margin-bottom: 0;
+.secciones {
+    margin: 8rem;
 }
 
-.seccion {
-    margin-top: 1rem;
-    margin-bottom: 5rem;
+.titulo {
+    font-size: 6rem;
+    padding: 2rem;
 }
 
 .fw-300 {
@@ -103,18 +89,6 @@ h4 {
 
 .centrar-texto {
     text-align: center;
-}
-
-.padding-texto {
-    padding: 2rem;
-}
-
-.contenido-centrado {
-    max-width: 800px;
-}
-
-.contenedor-titulo {
-    margin: 2rem;
 }
 
 
