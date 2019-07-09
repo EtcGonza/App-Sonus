@@ -8,7 +8,13 @@ var micsBajos = JSON.parse(micsBajos);
 var micsGuitarras = JSON.parse(micsGuitarras);
 let server = express();
 
-server.listen(3000, () => { console.log("Listen 3000!"); });
+const port = process.env.PORT || 3000;
+
+
+server.listen(port, () => { console.log(`Listen ${port}!`); });
+
+
+
 
 server.get('/getBajos', cors(), getMicsBajos);
 
