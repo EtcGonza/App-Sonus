@@ -1,20 +1,25 @@
-.grupo-botones {}
+/* .contenedor {
+    margin-top: 5rem;
+    text-align: center;
+} */
 
-.row {
-    margin: 0rem;
+.botones-hijos {
+    /* margin: 3rem 3rem 0rem 0rem; */
+    margin-top: 3rem;
+    text-align: center;
 }
 
-.hijos {
-    margin-top: 1rem;
-    margin-left: 0.6rem;
+.botones-hijos button {
+    margin-left: 1.2rem;
+}
+
+.botones-hijos button:first-of-type {
+    margin-left: 0rem;
 }
 
 .btn-circle.btn-xl {
-    /* display: block; */
     width: 70px;
     height: 70px;
-    /* padding: 10px 16px; */
     border-radius: 35px;
     font-size: 24px;
-    /* line-height: 1.33; */
 }

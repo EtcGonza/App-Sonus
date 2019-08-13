@@ -1,34 +1,28 @@
-<div>
+<app-titulo [titulo]='micSolicitado.nombre'>
+</app-titulo>
 
-    <div class="row justify-content-center color1">
-        <h2 class="titulo text-center fw-700">{{micSolicitado.nombre}}</h2>
+<app-boton-redondo [direccion]="'/menuMicrofonos/Guitarras'"></app-boton-redondo>
+
+<div class="secciones">
+
+    <div class="item">
+        <p class="descripcion text-center color3 fw-700">{{micSolicitado.descripcion}}</p>
     </div>
 
-    <div class="container secciones">
-        <div class="row justify-content-center">
-            <div class="item">
-                <p class="color3 texto text-center fw-700">{{micSolicitado.descripcion}}</p>
-            </div>
+
+    <div class="bloquePosiciones">
+        <div class="item">
+            <app-cuadro-mic [tituloPosicion]=micSolicitado.posiciones[0]></app-cuadro-mic>
+        </div>
+        <div class="item">
+            <app-cuadro-mic [tituloPosicion]=micSolicitado.posiciones[1]></app-cuadro-mic>
+        </div>
+        <div class="item">
+            <app-cuadro-mic [tituloPosicion]=micSolicitado.posiciones[2]></app-cuadro-mic>
         </div>
     </div>
 
-    <div>
-        <div class="secciones">
-            <div class="item col-sm">
-                <app-cuadro-mic [tituloPosicion]=micSolicitado.posiciones[0]></app-cuadro-mic>
-            </div>
-            <div class="item col-sm">
-                <app-cuadro-mic [tituloPosicion]=micSolicitado.posiciones[1]></app-cuadro-mic>
-            </div>
-            <div class="item col-sm">
-                <app-cuadro-mic [tituloPosicion]=micSolicitado.posiciones[2]></app-cuadro-mic>
-            </div>
-        </div>
-    </div>
-
-    <div class="row justify-content-center color1">
-        <h2 class="titulo text-center fw-700">Lo que hacemos</h2>
-    </div>
+    <app-titulo [titulo]="'Galeria'"></app-titulo>
 
     <app-galeria></app-galeria>
 

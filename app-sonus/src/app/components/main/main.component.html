@@ -1,27 +1,20 @@
-<div class="row justify-content-center color1">
-    <h2 class="text-center titulo fw-700 color2">Escucha Nuestros Sonidos</h2>
-</div>
+<app-titulo [titulo]="'Escucha nuestros sonidos'">
+</app-titulo>
 
-<div class="container secciones">
 
-    <div class="row justify-content-center">
+<div class="secciones contenedor-items">
 
-        <a [routerLink]="['/menuMicrofonos',tipoGuitarra]">
-            <div class="item col-sm color1">
-                <div>
-                    <h2 class="texto text-center color2 fw-700">Guitarra</h2>
-                    <img class="imagen" src="\assets\img\guitar.png" alt="iconoGuitarra">
-                </div>
-            </div>
-        </a>
 
-        <a [routerLink]="['/menuMicrofonos',tipoBajo]">
-            <div class="item col-sm color1">
-                <h2 class="texto text-center color2 fw-700">Bajo</h2>
-                <img class="imagen centrar-bajo" src="\assets\img\bajo.png" alt="IconoBajo">
-            </div>
-        </a>
-
+    <div class="items item1 color1 sombra redondeado" [routerLink]="['/menuMicrofonos',tipoGuitarra]">
+        <h2 class="text-center color2 fw-700">Guitarras</h2>
+        <div class="icono1 imagen-icono centrar-bajo" alt="iconoGuitarra">
+        </div>
     </div>
 
+
+    <div class="items item2 color1 sombra redondeado" [routerLink]="['/menuMicrofonos',tipoBajo]">
+        <h2 class="text-center color2 fw-700">Bajos</h2>
+        <div class="imagen-icono centrar-bajo" alt="iconoGuitarra">
+        </div>
+    </div>
 </div>

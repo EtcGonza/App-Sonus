@@ -11,9 +11,8 @@ export class ApiService {
 
   // QUERY API PROPIA
   getQueryApi(query: string) {
-    const url = `http://localhost:3000/${query}`;
-    // const url = `/api/${query}`;
-    console.log(`http://localhost:3000/${query}`);
+    // const url = `http://localhost:3000/${query}`;
+    const url = `https://sonusbackend.herokuapp.com/${query}`;
     return this.http.get(url);
   }
 
@@ -30,7 +29,7 @@ export class ApiService {
   }
 
   solicitarMic (modelo, clasificacion, nombre) {
-    console.log("Enviando "+modelo,clasificacion,nombre);
+    // console.log("Enviando "+modelo,clasificacion,nombre);
     return this.getQueryApi(`getMicrofono/${modelo}/${clasificacion}/${nombre}`);
   }
 }

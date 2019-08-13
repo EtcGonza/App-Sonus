@@ -1,0 +1,9 @@
+/* .contenedor-botones {
+    margin-left: 10rem;
+} */
+
+@media (min-width: 768px) {
+    .contenedor-botones {
+        margin-left: 0rem;
+    }
+}

@@ -1,16 +1,15 @@
-<div class="container">
-    <div>
-        <button class="titulo navbar-toggler color1 fw-700" type="button" data-toggle="collapse" attr.data-target="#desplegable-{{id+1}}">
-            <div class="contenido">
+<div>
+    <button class="titulo navbar-toggler color1 fw-700 redondeado sombra" type="button" data-toggle="collapse" attr.data-target="#desplegable-{{id+1}}">
+            <div class="texto-boton">
                     <i class="fas fa-guitar"></i> | {{nombreClasificacion}}
             </div>
         </button>
-    </div>
-    <div class="collapse" id="desplegable-{{id+1}}">
-        <div class="row justify-content-center">
-            <div *ngFor="let mic of listaMicrofonos" class="row justify-content-md-left">
-                <button type="button" class="item btn color1 fw-700" [routerLink]="['/presentacion',tipo,nombreClasificacion,mic.nombre]">{{mic.nombre}}</button>
-            </div>
+</div>
+
+<div class="collapse" id="desplegable-{{id+1}}">
+    <div class="row botones-desplegables">
+        <div *ngFor="let mic of listaMicrofonos">
+            <button type="button" class="item btn color1 fw-700 sombra" [routerLink]="['/presentacion',tipo,nombreClasificacion,mic.nombre]">{{mic.nombre}}</button>
         </div>
     </div>
 </div>

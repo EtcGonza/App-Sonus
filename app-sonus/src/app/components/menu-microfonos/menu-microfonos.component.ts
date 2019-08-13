@@ -15,7 +15,7 @@ export class MenuMicrofonosComponent implements OnInit {
   constructor(private API:ApiService, private rutaActiva: ActivatedRoute) {
     this.rutaActiva.params.subscribe( params => {
       this.tipo = params['tipo'];
-      console.log("El tipo elegido fue: " + this.tipo);
+      // console.log("El tipo elegido fue: " + this.tipo);
     });
   }
 
@@ -23,7 +23,7 @@ export class MenuMicrofonosComponent implements OnInit {
     this.API.getMicsList(this.tipo)
             .subscribe((data:any) => {
               this.MicrofonosList = data;
-              console.log(data);
+              // console.log(data);
             });
   }
 

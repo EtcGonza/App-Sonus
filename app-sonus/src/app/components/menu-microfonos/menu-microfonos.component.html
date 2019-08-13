@@ -1,11 +1,9 @@
-<div class="row justify-content-center color1">
-    <h2 class="text-center titulo fw-700 color2">Elegí un microfono</h2>
-</div>
+<app-titulo [titulo]="'Elegí un microfono'"></app-titulo>
 
-<div class="container secciones">
-    <div>
-        <div *ngFor="let mic of MicrofonosList">
-            <app-boton-desplegable [tipo]="tipo" [listaMicrofonos]="mic.microfonos" [nombreClasificacion]="mic.nombreClasificacion" [id]="mic.id"></app-boton-desplegable>
-        </div>
+<app-boton-redondo></app-boton-redondo>
+
+<div class="secciones">
+    <div class="contenedor-botones" *ngFor="let mic of MicrofonosList">
+        <app-boton-desplegable [tipo]="tipo" [listaMicrofonos]="mic.microfonos" [nombreClasificacion]="mic.nombreClasificacion" [id]="mic.id"></app-boton-desplegable>
     </div>
 </div>

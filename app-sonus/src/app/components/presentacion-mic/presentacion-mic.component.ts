@@ -23,6 +23,7 @@ export class PresentacionMicComponent implements OnInit {
       this.modelo = params['modelo'];
       this.clasificacion = params['clasificacion'];
       this.nombre = params['nombre'];
+      // console.log(this.modelo);
     });
   }
 
@@ -31,11 +32,11 @@ export class PresentacionMicComponent implements OnInit {
     if (this.playing == false) {
       x.play();
       this.playing = true;
-      console.log("Reproduciendo: " + idAudio);
+      // console.log("Reproduciendo: " + idAudio);
     } else {
       x.pause();
       this.playing = false;
-      console.log("Detengo: " + idAudio);
+      // console.log("Detengo: " + idAudio);
     }
   }
 
@@ -43,7 +44,7 @@ export class PresentacionMicComponent implements OnInit {
     this.API.solicitarMic(this.modelo,this.clasificacion,this.nombre)
         .subscribe((data:any) => {
           this.micSolicitado = data;
-          console.log(this.micSolicitado.posiciones);
+          // console.log(this.micSolicitado.posiciones);
         });
   }
 

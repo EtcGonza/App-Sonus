@@ -21,6 +21,7 @@ import { BotonDesplegableComponent } from './components/boton-desplegable/boton-
 import { BotonRedondoComponent } from './components/boton-redondo/boton-redondo.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { GaleriaComponent } from './components/galeria/galeria.component';
+import { TituloComponent } from './components/titulo/titulo.component';
 
 
 @NgModule({
@@ -36,7 +37,8 @@ import { GaleriaComponent } from './components/galeria/galeria.component';
     BotonDesplegableComponent,
     BotonRedondoComponent,
     FooterComponent,
-    GaleriaComponent
+    GaleriaComponent,
+    TituloComponent
   ],
   imports: [
     BrowserModule,

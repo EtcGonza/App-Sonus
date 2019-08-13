@@ -16,7 +16,12 @@ const routes: Routes = [
   {
     path:'menuMicrofonos/:tipo',
     component: MenuMicrofonosComponent
-  }
+  },
+  {
+    path: '**', 
+    pathMatch: 'full', 
+    redirectTo: 'menu' 
+}
 ];
 
 @NgModule({

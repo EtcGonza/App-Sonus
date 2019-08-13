@@ -1,53 +1,56 @@
-a {
-    text-decoration: none;
-    margin-right: 6rem;
+h2 {
+    padding: 1.2rem;
 }
 
-.item img {
-    height: 350px;
+@media (min-width: 768px) {
+    .contenedor-items {
+        display: flex;
+    }
 }
 
-.centrar-bajo {
-    margin-left: 1.5rem;
+.contenedor-items .items:last-of-type {
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+    background-size: 10.5rem;
 }
 
-
-/* EFECTO SOMBRA */
-
-.item {
-    min-width: 216px;
-    border-radius: 2rem;
-    padding: 3.5rem;
-    margin-bottom: 2rem;
-    position: relative;
-    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-    box-shadow: 0 20px 50px black;
+@media (min-width: 768px) {
+    .contenedor-items .items:last-of-type {
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        background-size: 9.4rem;
+        height: 35rem;
+    }
+    .contenedor-items .items:first-of-type {
+        background-size: 11.3rem;
+    }
 }
 
-.item:before,
-.item:after {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
-    -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
-    top: 10px;
-    bottom: 10px;
-    left: 0;
-    right: 0;
-    -moz-border-radius: 100px / 10px;
-    border-radius: 100px / 10px;
+.items {
+    margin: 0 auto;
+    background-size: 12rem;
+    background-position-y: 6.5rem;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    max-width: 17rem;
+    height: 38rem;
+    cursor: pointer;
 }
 
-.item:after {
-    right: 10px;
-    left: auto;
-    -webkit-transform: skew(8deg) rotate(3deg);
-    -moz-transform: skew(8deg) rotate(3deg);
-    -ms-transform: skew(8deg) rotate(3deg);
-    -o-transform: skew(8deg) rotate(3deg);
-    transform: skew(8deg) rotate(3deg);
+@media (min-width: 768px) {
+    .items {
+        background-position-x: center;
+        background-repeat: no-repeat;
+        width: 25rem;
+        height: 35rem;
+        cursor: pointer;
+    }
+}
+
+.item1 {
+    background-image: url(../../../assets/img/guitar.jpg);
+}
+
+.item2 {
+    background-image: url(../../../assets/img/bajo.jpg);
 }

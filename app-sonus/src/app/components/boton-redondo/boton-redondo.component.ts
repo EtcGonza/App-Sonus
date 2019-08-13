@@ -7,11 +7,14 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class BotonRedondoComponent implements OnInit {
 
-  @Input()link:any;
+  @Input()direccion:string;
 
-  constructor() { }
+  constructor() { 
+    console.log(this.direccion);
+  }
 
   ngOnInit() {
+    console.log(this.direccion);
   }
 
 }
