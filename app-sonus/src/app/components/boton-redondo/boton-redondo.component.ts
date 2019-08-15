@@ -9,12 +9,8 @@ export class BotonRedondoComponent implements OnInit {
 
   @Input()direccion:string;
 
-  constructor() { 
-    console.log(this.direccion);
-  }
+  constructor() {}
 
-  ngOnInit() {
-    console.log(this.direccion);
-  }
+  ngOnInit() {}
 
 }

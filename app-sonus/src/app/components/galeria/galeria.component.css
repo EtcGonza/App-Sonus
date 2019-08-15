@@ -7,16 +7,16 @@
 .contenedorImagen img {
     width: 9rem;
     height: 9rem;
-    margin: 1rem;
+    margin: 1.5rem;
     border-radius: 7px;
 }
 
 .grafico {
     height: 30rem;
-    width: 20rem;
+    width: 20.5rem;
     background-size: cover;
     background-position: center center;
-    border-radius: 7px;
+    border-radius: 3px;
 }
 
 .grafico-1 {

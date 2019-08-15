@@ -1,9 +1,0 @@
-<app-titulo [titulo]="'Elegí un microfono'"></app-titulo>
-
-<app-boton-redondo></app-boton-redondo>
-
-<div class="secciones">
-    <div class="contenedor-botones" *ngFor="let mic of MicrofonosList">
-        <app-boton-desplegable [tipo]="tipo" [listaMicrofonos]="mic.microfonos" [nombreClasificacion]="mic.nombreClasificacion" [id]="mic.id"></app-boton-desplegable>
-    </div>
-</div>

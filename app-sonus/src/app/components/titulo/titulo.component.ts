@@ -9,9 +9,8 @@ export class TituloComponent implements OnInit {
 
   @Input()titulo:string;
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
 }

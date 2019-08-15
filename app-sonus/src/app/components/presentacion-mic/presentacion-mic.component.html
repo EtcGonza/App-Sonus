@@ -1,29 +1,22 @@
-<app-titulo [titulo]='micSolicitado.nombre'>
+<app-titulo [titulo]='microfono.nombre'>
 </app-titulo>
 
-<app-boton-redondo [direccion]="'/menuMicrofonos/Guitarras'"></app-boton-redondo>
+<app-boton-redondo [direccion]="microfono.tipo"></app-boton-redondo>
 
 <div class="secciones">
 
     <div class="item">
-        <p class="descripcion text-center color3 fw-700">{{micSolicitado.descripcion}}</p>
+        <p class="descripcion text-center color3 fw-700">{{microfono.descripcion}}</p>
     </div>
-
 
     <div class="bloquePosiciones">
-        <div class="item">
-            <app-cuadro-mic [tituloPosicion]=micSolicitado.posiciones[0]></app-cuadro-mic>
-        </div>
-        <div class="item">
-            <app-cuadro-mic [tituloPosicion]=micSolicitado.posiciones[1]></app-cuadro-mic>
-        </div>
-        <div class="item">
-            <app-cuadro-mic [tituloPosicion]=micSolicitado.posiciones[2]></app-cuadro-mic>
+        <div class="item" *ngFor="let posicion of microfono.posiciones">
+            <app-reproductor [tituloPosicion]=posicion.Posicion [url]=posicion.urlSonido></app-reproductor>
         </div>
     </div>
 
-    <app-titulo [titulo]="'Galeria'"></app-titulo>
+    <!-- <app-titulo [titulo]="'Galeria'"></app-titulo> -->
 
-    <app-galeria></app-galeria>
+    <!-- <app-galeria></app-galeria> -->
 
 </div>

@@ -1,34 +1,37 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { ApiService } from '../../services/api.service';
 import { ActivatedRoute } from '@angular/router';
+import { clasificacionMicrofonos } from '../../models/clasificacionMicrofonos';
 
 @Component({
-  selector: 'app-menu-microfonos',
-  templateUrl: './menu-microfonos.component.html',
-  styleUrls: ['./menu-microfonos.component.css']
+  selector: 'app-lista-microfonos',
+  templateUrl: './lista-microfonos.component.html',
+  styleUrls: ['./lista-microfonos.component.css']
 })
-export class MenuMicrofonosComponent implements OnInit {
+export class ListaMicrofonosComponent implements OnInit {
 
   tipo:string;
-  MicrofonosList:any;
+  MicrofonosList:clasificacionMicrofonos[];
+  loading:boolean = true;
 
   constructor(private API:ApiService, private rutaActiva: ActivatedRoute) {
     this.rutaActiva.params.subscribe( params => {
       this.tipo = params['tipo'];
-      // console.log("El tipo elegido fue: " + this.tipo);
     });
   }
 
   solicitarMicrofonos(){
+    this.loading = true;
     this.API.getMicsList(this.tipo)
-            .subscribe((data:any) => {
+            .subscribe((data:clasificacionMicrofonos[]) => {
+              this.loading = false;
               this.MicrofonosList = data;
-              // console.log(data);
             });
   }
 
   ngOnInit() {
     this.solicitarMicrofonos();
+
   }
 
 }

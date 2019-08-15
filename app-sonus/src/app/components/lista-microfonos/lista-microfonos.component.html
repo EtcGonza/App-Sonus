@@ -1,0 +1,13 @@
+<app-titulo [titulo]="'Elegí un microfono'"></app-titulo>
+
+<app-boton-redondo></app-boton-redondo>
+
+<div class="d-flex justify-content-center" *ngIf="loading">
+    <div class="loading spinner-grow text-warning" text-w role="status"></div>
+</div>
+
+<div class="secciones">
+    <div class="contenedor-botones" *ngFor="let mic of MicrofonosList; let i = index">
+        <app-boton-desplegable [listaMicrofono]="mic" [id]="i"></app-boton-desplegable>
+    </div>
+</div>

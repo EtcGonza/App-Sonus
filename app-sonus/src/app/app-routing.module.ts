@@ -1,21 +1,21 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule} from '@angular/router';
-import { MainComponent } from './components/main/main.component';
 import { PresentacionMicComponent } from './components/presentacion-mic/presentacion-mic.component';
-import { MenuMicrofonosComponent } from './components/menu-microfonos/menu-microfonos.component';
+import { MenuPrincipalComponent } from './components/menu-principal/menu-principal.component';
+import { ListaMicrofonosComponent } from './components/lista-microfonos/lista-microfonos.component';
 
 const routes: Routes = [
   {
   path:'menu',
-  component: MainComponent,
+  component: MenuPrincipalComponent,
   },
   {
-    path:'presentacion/:modelo/:clasificacion/:nombre',
+    path:'presentacion',
     component:PresentacionMicComponent
   },
   {
     path:'menuMicrofonos/:tipo',
-    component: MenuMicrofonosComponent
+    component: ListaMicrofonosComponent
   },
   {
     path: '**', 

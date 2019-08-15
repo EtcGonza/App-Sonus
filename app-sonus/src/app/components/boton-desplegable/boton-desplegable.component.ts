@@ -1,4 +1,8 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { Microfono } from '../../models/microfonosInterfaces';
+import { clasificacionMicrofonos } from '../../models/clasificacionMicrofonos';
+import { Router } from '@angular/router';
+import { ApiService } from '../../services/api.service';
 
 @Component({
   selector: 'app-boton-desplegable',
@@ -7,14 +11,17 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class BotonDesplegableComponent implements OnInit {
 
-  @Input()nombreClasificacion:String;
-  @Input()listaMicrofonos:any;
   @Input()id:any;
-  @Input()tipo:any;
+  @Input()listaMicrofono:clasificacionMicrofonos;
+  mic:Microfono;
 
-  constructor() { }
+  constructor(private servicio:ApiService) {}
 
-  ngOnInit() {
+  ngOnInit() {}
+
+  guardarMic (mic:Microfono) {
+    this.mic = mic;
+    this.servicio.setObjMic(this.mic);
+    this.mic = this.servicio.getObjMic();
   }
-
 }

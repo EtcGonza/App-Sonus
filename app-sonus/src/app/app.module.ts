@@ -8,37 +8,36 @@ import { HttpClientModule } from "@angular/common/http";
 import { NavbarModule, WavesModule } from 'angular-bootstrap-md'
 // Componentes.
 import { HeaderComponent } from './components/header/header.component';
-import { MainComponent } from './components/main/main.component';
-import { ButtonMenuComponent } from './components/button-menu/button-menu.component';
 import { PresentacionMicComponent } from './components/presentacion-mic/presentacion-mic.component';
 
 //Rutas
 import { RouterModule } from "@angular/router";
-import { MenuMicrofonosComponent } from './components/menu-microfonos/menu-microfonos.component';
-import { CuadroMicComponent } from './components/cuadro-mic/cuadro-mic.component';
-import { WaveAnimationComponent } from './components/wave-animation/wave-animation.component';
 import { BotonDesplegableComponent } from './components/boton-desplegable/boton-desplegable.component';
 import { BotonRedondoComponent } from './components/boton-redondo/boton-redondo.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { GaleriaComponent } from './components/galeria/galeria.component';
 import { TituloComponent } from './components/titulo/titulo.component';
 
+// Pipes
+import { PipeCloudPipe} from './pipe/pipe-cloud.pipe';
+import { ReproductorComponent } from './components/reproductor/reproductor.component';
+import { MenuPrincipalComponent } from './components/menu-principal/menu-principal.component';
+import { ListaMicrofonosComponent } from './components/lista-microfonos/lista-microfonos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    MainComponent,
-    ButtonMenuComponent,
     PresentacionMicComponent,
-    MenuMicrofonosComponent,
-    CuadroMicComponent,
-    WaveAnimationComponent,
     BotonDesplegableComponent,
     BotonRedondoComponent,
     FooterComponent,
     GaleriaComponent,
-    TituloComponent
+    TituloComponent,
+    PipeCloudPipe,
+    ReproductorComponent,
+    MenuPrincipalComponent,
+    ListaMicrofonosComponent
   ],
   imports: [
     BrowserModule,
